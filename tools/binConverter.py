@@ -49,7 +49,7 @@ for byte in openFileToByte_generator(fileIn,16):
 
 
 
-stringBuffer = "{\n" + stringBuffer + "\n};"
+stringBuffer = "#include <pico/platform.h>\nconst uint8_t __in_flash(\"payloads\") payload = {\n" + stringBuffer + "\n};"
 
 print("\nwriting file: " + fileOut)
 text_file = open(fileOut, "w")
