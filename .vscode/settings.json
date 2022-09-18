@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "tusb.h": "c",
+        "vendor_host.h": "c",
+        "usbh.h": "c",
+        "tusb_common.h": "c",
+        "tusb_types.h": "c",
+        "tusb_debug.h": "c",
+        "tusb_timeout.h": "c",
+        "tusb_compiler.h": "c",
+        "hcd.h": "c",
+        "*.hex": "c",
+        "typeinfo": "c",
+        "board.h": "c"
+    }
+}
